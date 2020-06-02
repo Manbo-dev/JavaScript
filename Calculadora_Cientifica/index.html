@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/main.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Calculadora Ciêntifica</title>
+</head>
+<body>
+    <div id="Interface">
+        <p id="resultado">Resultado</p>
+
+
+        <form name="form">
+            <p>Insira um valor:</p>
+            <input type="text" name="v1">
+            <p>Insira um valor:</p>
+            <input type="text" name="v2"><br>
+            <input type="checkbox" name="modulo" value="1">Mostrar com módulo<br>
+
+            <div id="button">
+                <button type="button" onClick="soma(form)">Soma</button><br>
+                <button type="button" onClick="subtracao(form)">Subtração</button><br>
+                <button type="button" onClick="divisao(form)">Divisão</button><br>
+                <button type="button" onClick="multiplicacao(form)">Multiplicação</button><br>
+                
+
+
+
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

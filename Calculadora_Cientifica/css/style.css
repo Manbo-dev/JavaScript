@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(39, 39, 39);
+}
+div#Interface{
+    background-color: rgba(0,0,0,0.8);
+	width:500px;
+	margin:0px auto;
+	top: 100px;
+	padding:10px;  
+	position:relative;
+	border-radius: 15px;
+	color: white;
+    
+}
+div#Interface div#button{
+    padding: 10px;
+}
